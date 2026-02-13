@@ -1,0 +1,5 @@
+[[mgr.prepend_keymap]]
+on = ["O"]
+run = "shell kitty nvim \"$@\""
+desc = "Open in nvim"
+show_hidden = true

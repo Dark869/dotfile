@@ -1,0 +1,5 @@
+[[manager.prepend_keymap]]
+on = ["O"]
+run = "shell kitty nvim \"$@\""
+desc = "Open in nvim"
+

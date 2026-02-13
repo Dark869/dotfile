@@ -1,0 +1,5 @@
+[[manager.prepend_keymap]]
+on = ["C"]
+run = "shell code \"$@\""
+desc = "Open in VS Code"
+
