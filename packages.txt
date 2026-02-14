@@ -1,0 +1,20 @@
+- otf-hermit-nerd
+- zip
+- unzip
+- btop
+- fastfech
+- neovim
+- curl
+- wget
+- waybar
+- yazi
+- hyprpaper
+- ohmyposh - clean-detailed
+- zsh
+- zsh-autosuggestions
+- zsh-syntax-highlighting
+- zsh-completions
+- discord
+- noto-fonts-emoji
+- pavucontrol
+- hyprlock
