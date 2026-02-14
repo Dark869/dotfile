@@ -1,0 +1,12 @@
+/**
+ * Rofi Color Theme: Forest
+ * Green-gray tones extracted from wallpaper
+ */
+
+* {
+    main-bg:            #252f31CC;
+    main-fg:            #a5b0a2;
+    main-br:            #5b6d62;
+    select-bg:          #3e4e4a;
+    select-fg:          #a5b0a2;
+}

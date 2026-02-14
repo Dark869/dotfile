@@ -5,7 +5,7 @@
 }
 
 window#waybar {
-  background-color: rgba(26, 26, 26, 0.5);
+  background-color: rgba(37, 47, 49, 0.5);
 }
 
 window#waybar.hidden {
@@ -33,18 +33,23 @@ button {
 }
 
 #workspaces button {
-  padding: 0px;
+  padding: 0px 4px;
   background-color: transparent;
   color: #ffffff;
+  transition: all 1s cubic-bezier(0.05, 0.9, 0.1, 1);
+  border-radius: 10px;
+  min-width: 10px;
+  opacity: 0.5;
 }
 
 #workspaces button:hover {
-  background: transparent;
+  background: rgba(91, 109, 98, 0.3);
+  opacity: 0.8;
 }
 
 #workspaces button.focused {
   background-color: transparent;
-  box-shadow: inset 0 -3px #ffffff;
+  box-shadow: inset 0 -3px #5b6d62;
 }
 
 #workspaces button.urgent {
@@ -52,7 +57,7 @@ button {
 }
 
 #date1 {
-  color: #ffffff;
+  color: #a5b0a2;
 }
 
 #tray {
@@ -76,11 +81,11 @@ button {
 #power-profiles-daemon,
 #mpd {
   padding: 0 10px;
-  color: #ffffff;
+  color: #a5b0a2;
 }
 
 #custom-notficiationCenter {
-  color: #ffffff;
+  color: #a5b0a2;
   padding-right: 15px;
 }
 
@@ -93,20 +98,28 @@ button {
   padding-right: 10px;
   padding-left: 10px;
   border-radius: 10px;
+  min-width: 12px;
+  transition: all 1s cubic-bezier(0.05, 0.9, 0.1, 1);
+  opacity: 0.5;
 }
 
 #workspaces button.active {
-  background-color: rgb(105, 105, 105);
+  background-color: rgba(62, 78, 74, 0.8);
+  padding-right: 10px;
+  padding-left: 10px;
+  min-width: 18px;
+  opacity: 1;
 }
 
 #workspaces button:hover {
-  background-color: rgb(70, 70, 70);
-  box-shadow: inset 0 -3px #ffffff;
+  background-color: rgba(91, 109, 98, 0.6);
+  box-shadow: inset 0 -3px #5b6d62;
+  opacity: 0.8;
 }
 
 #clockG {
   padding: 0 6px 0 6px;
-  color: #ffffff;
+  color: #a5b0a2;
 }
 
 #metrics,
@@ -120,13 +133,13 @@ button {
   border-radius: 15px;
   padding-top: 4px;
   padding-bottom: 4px;
-  background-color: rgba(30, 30, 30, 0.8);
-  border: 2px solid #bdbdbd;
+  background-color: rgba(37, 47, 49, 0.8);
+  border: 2px solid #5b6d62;
 }
 
 #custom-terminal {
   padding: 0 10px;
-  color: #ffffff;
+  color: #a5b0a2;
   font-size: 20px;
   background-color: transparent;
 }
@@ -135,17 +148,24 @@ button {
   padding: 0 5px 0 5px;
 }
 
+#taskbar button {
+  transition: all 1s cubic-bezier(0.05, 0.9, 0.1, 1);
+  border-radius: 15px;
+  opacity: 0.6;
+}
+
 #taskbar button:hover {
   background: rgba(0, 0, 0, 0);
-  background-color: rgb(70, 70, 70);
+  background-color: rgba(91, 109, 98, 0.6);
   border-radius: 15px;
-  box-shadow: inset 0 -3px #ffffff;
-  transition-duration: 0.5s;
+  box-shadow: inset 0 -3px #5b6d62;
+  opacity: 0.9;
 }
 
 #taskbar button.active {
-  background-color: rgb(105, 105, 105);
+  background-color: rgba(62, 78, 74, 0.8);
   border-radius: 15px;
+  opacity: 1;
 }
 
 #taskbar.empty {
@@ -159,7 +179,7 @@ button {
   padding-left: 8px;
   padding-right: 8px;
   opacity: 1;
-  color: #ffffff;
+  color: #a5b0a2;
 }
 
 #custom-mediaPlayer.stopped {

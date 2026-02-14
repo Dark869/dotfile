@@ -1,0 +1,21 @@
+/**
+ * Rofi Main Configuration
+ * Use: rofi -show drun -theme ~/.config/rofi/themes/style_1.rasi
+ */
+
+configuration {
+    modi:                        "drun,filebrowser,window,run";
+    show-icons:                  true;
+    display-drun:                " ";
+    display-run:                 " ";
+    display-filebrowser:         " ";
+    display-window:              " ";
+    drun-display-format:         "{name}";
+    window-format:               "{w}{t}";
+    font:                        "JetBrainsMono Nerd Font 10";
+    icon-theme:                  "Tela-circle-dracula";
+}
+
+//@theme "~/.config/rofi/themes/style_1.rasi"
+
+@theme "/home/dark869/.config/rofi/themes/style_1_forest.rasi"

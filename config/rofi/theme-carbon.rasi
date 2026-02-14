@@ -1,0 +1,12 @@
+/**
+ * Rofi Color Theme: Carbon
+ * Dark gray matching waybar style
+ */
+
+* {
+    main-bg:            #1e1e1eCC;
+    main-fg:            #ffffff;
+    main-br:            #bdbdbd;
+    select-bg:          #696969;
+    select-fg:          #ffffff;
+}
